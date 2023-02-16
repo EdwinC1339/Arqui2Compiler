@@ -1,0 +1,6 @@
+var x 9
+var y 10
+load 1 x
+load 2 y
+add 2 1
+out 2 0
