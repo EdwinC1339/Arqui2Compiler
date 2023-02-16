@@ -1,4 +1,4 @@
-#Compiler for a simple language for the CIIC4082 project 1 CPU.
+# Compiler for a simple language for the CIIC4082 project 1 CPU.
 
 To use this, write your desired program in input.txt, then run `main.py`. The output will be available in output.txt, from where you can load it into your RAM in logisim.  
 You may also choose to run it from the command line by passing in the relative path to the input file, followed by the relative path to the output file (it will create one if it does not exist).
