@@ -38,7 +38,7 @@ class Format2(Instruction):  # ppssaaaa
         super().__init__(mnemonic)
         # store ss [in] aaaa
         self.source = operands[0]
-        self.address = operands
+        self.address = operands[1]
 
     def __str__(self):
         binary_string = "01"
