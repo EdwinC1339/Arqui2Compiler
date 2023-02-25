@@ -97,7 +97,7 @@ class Format6(Instruction):  # ppppaaaa
 
     def __str__(self):
         binary_string = "1111"
-        binary_string += format_binary(self.address)
+        binary_string += format_binary(self.address, 4)
         return hex(int(binary_string, 2))[2:]
 
 
